@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>New tempalte</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+
+<body>
+    <div id="root">
+        <div class="wraper">
+          <h1 class="first-header">Hello! tarara</h1>
+          
+          <form id="form" action="">
+            <fieldset>
+              <legend>Some input</legend>
+              <label for="firstname">First name:</label><br>
+                  <input type="text" name="firstname" value="Mickey"><br>
+                <label for="firstname">Last name:</label><br>
+                  <input type="text" name="lastname" value="Mouse"><br><br>
+                  
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+          
+          <button id="run">Run</button>
+          <div></div>
+          <div id="mover" style="width:200px; height:200px"></div>
+          <div></div>
+          
+          <div id="flickr"></div>
+        </div>
+    </div>
+    <script src="dist/commons.js"></script>
+    <script src="dist/app.bundle.js"></script>
+</body>
+</html>
