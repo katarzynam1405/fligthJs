@@ -1,9 +1,22 @@
-.border{
-  border-bottom: #181;
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
-#mover{
-    border: solid 1px #811;
+.wraper {
+  width: 200px;
+  margin: 20px auto;
+  color: gray;
 }
-.colored {
-  background-color: #118!important;
+.hello {
+  text-align: center;
+}
+.welcome {
+  font-size: 1.5em;
+  text-align: center;
+}
+.icons{
+  text-align: center;
+}
+img{
+  margin: 10px
 }

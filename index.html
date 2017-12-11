@@ -3,34 +3,33 @@
 <head>
     <meta charset="utf-8">
     <title>New tempalte</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- Flight release -->
+    <script src="http://flightjs.github.io/release/latest/flight.min.js"></script>
     <link rel="stylesheet" href="src/styles/style.css">
 </head>
 
 <body>
     <div id="root">
-        <div class="wraper">
-          <h1 class="first-header">Hello! tarara</h1>
-          
-          <form id="form" action="">
-            <fieldset>
-              <legend>Some input</legend>
-              <label for="firstname">First name:</label><br>
-                  <input type="text" name="firstname" value="Mickey"><br>
-                <label for="firstname">Last name:</label><br>
-                  <input type="text" name="lastname" value="Mouse"><br><br>
-                  
-              <input type="submit" value="Submit">
-            </fieldset>
-          </form>
-          
-          <button id="run">Run</button>
-          <div></div>
-          <div id="mover" style="width:200px; height:200px"></div>
-          <div></div>
-          
-          <div id="flickr"></div>
+      <div class="wraper">
+   <div clas="hello-container">
+   <h2 class="hello">Hi</h2>
+      <div class="say-hello-to">
+          <p class="welcome">Say hello to:</p>
+          <div class="icons">
+            <a href="#helloCat" class="kitten">
+              <img src="https://image.flaticon.com/icons/svg/23/23957.svg"
+              style="heigth: 32px; width: 32px"/>
+            </a>
+            <a href="#helloDog" class="dog">
+              <img src="https://image.flaticon.com/icons/svg/12/12638.svg"
+              style="heigth: 32px; width: 32px"/>
+            </a>
         </div>
+      </div>
+  </div>
+</div>
     </div>
     <script src="dist/commons.js"></script>
     <script src="dist/app.bundle.js"></script>
